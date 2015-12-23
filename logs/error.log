@@ -1,0 +1,174 @@
+2015-12-23 11:53:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index.json could not be found.
+Exception Attributes: array (
+  'class' => 'Index.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /t3/cakephp_1/index.json
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-23 11:54:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index.json could not be found.
+Exception Attributes: array (
+  'class' => 'Index.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /t3/cakephp_1/index.json
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-23 11:55:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index.json could not be found.
+Exception Attributes: array (
+  'class' => 'Index.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /t3/cakephp_1/index.json
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-23 11:56:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index.json could not be found.
+Exception Attributes: array (
+  'class' => 'Index.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /t3/cakephp_1/index.json
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-23 12:01:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cocktails.json could not be found.
+Exception Attributes: array (
+  'class' => 'Cocktails.json',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /t3/cakephp_1/cocktails.json
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-23 12:03:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Index could not be found.
+Exception Attributes: array (
+  'class' => 'Index',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /t3/cakephp_1/index
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-12-23 12:16:43 Error: Fatal Error (1): Trait 'App\Model\Entity\Cake\Auth\DefaultPasswordHasher' not found in [C:\xampp\htdocs\t3\cakephp_1\src\Model\Entity\User.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-23 12:16:43 Error: [Cake\Error\FatalErrorException] Trait 'App\Model\Entity\Cake\Auth\DefaultPasswordHasher' not found
+Request URL: /t3/cakephp_1/users
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\Mode...', 'C:\\xampp\\htdocs...', 33)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-23 13:13:58 Error: Fatal Error (1): Class 'App\Controller\Api\UnauthorizedException' not found in [C:\xampp\htdocs\t3\cakephp_1\src\Controller\Api\CocktailsController.php, line 14]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 209
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 92
+[main] - [internal], line ??
+
+
+
+2015-12-23 13:13:59 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Api\UnauthorizedException' not found
+Request URL: /t3/cakephp_1/api/cocktails
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(92): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-12-23 13:14:24 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /t3/cakephp_1/api/cocktails
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\Api\CocktailsController->initialize()
+#1 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#2 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#3 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#9 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-23 13:14:44 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /t3/cakephp_1/api/cocktails
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\Api\CocktailsController->initialize()
+#1 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#2 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#3 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#9 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-23 13:15:12 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /t3/cakephp_1/api/cocktails
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\Api\CocktailsController->initialize()
+#1 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#2 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#3 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#9 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2015-12-23 13:15:43 Error: [Cake\Network\Exception\UnauthorizedException] Invalid username or password
+Request URL: /t3/cakephp_1/api/cocktails
+Stack Trace:
+#0 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\Api\CocktailsController->initialize()
+#1 [internal function]: Cake\Controller\Controller->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#2 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(91): ReflectionClass->newInstance(Object(Cake\Network\Request), Object(Cake\Network\Response), 'Cocktails')
+#3 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Filter\ControllerFactoryFilter.php(50): Cake\Routing\Filter\ControllerFactoryFilter->_getController(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#4 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\DispatcherFilter.php(145): Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch(Object(Cake\Event\Event))
+#5 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(389): Cake\Routing\DispatcherFilter->handle(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#7 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#8 C:\xampp\htdocs\t3\cakephp_1\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#9 C:\xampp\htdocs\t3\cakephp_1\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
